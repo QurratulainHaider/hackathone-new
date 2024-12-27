@@ -7,20 +7,15 @@ import BlueHeader from '@/components/BlueHeader'
 
 import React from 'react'
 
-export default function AboutPage() { {
+export default function AboutPage() {
   return (
-    <div className="px-[135px] ">
-        <BlueHeader/>
-        <About/>
-        <AboutHero/>
-        <AboutTeam/>
-        <AboutCompanies />
-        <AboutTestimonial/>
-        
-       
-
+    <div className="px-[135px]">
+      <BlueHeader />
+      <About />
+      <AboutHero />
+      <AboutTeam />
+      <AboutCompanies />
+      <AboutTestimonial />
     </div>
   )
-}
-
 }
